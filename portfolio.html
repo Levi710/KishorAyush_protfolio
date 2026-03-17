@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Ayush Kishor</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="antigravity-canvas"></canvas>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">A<span>.</span>K</div>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#hackathons">Hackathons</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-eyebrow">Available for internships · 2025</div>
+  <h1 class="hero-name">Ayush<br><em>Kishor</em></h1>
+  <p class="hero-sub">I build AI systems and web products that actually ship. 3rd year CSE at KIIT — writing code between distributed pipelines and branching context managers.</p>
+  <div class="hero-ctas">
+    <a href="#projects" class="btn-primary">View Projects</a>
+    <a href="#contact" class="btn-secondary">Contact Me</a>
+  </div>
+  <div class="hero-scroll"><div class="scroll-line"></div>scroll to explore</div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-header reveal">
+    <span class="section-number">01</span>
+    <h2 class="section-title">About</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p>I'm a <strong>software engineer and AI builder</strong> at KIIT Deemed University, Bhubaneswar — graduating 2027 with a B.Tech in CSE.</p>
+      <p>My work sits at the intersection of <strong>product thinking and systems design</strong>. I build things that are meant to be used — not just demoed. From multi-agent extraction pipelines to AI-native interfaces with branching context, I care about how it actually <em>feels</em> to use software.</p>
+      <p>Currently seeking <strong>software engineering internships</strong> where I can build, ship, and learn fast.</p>
+    </div>
+    <div class="about-stats reveal">
+      <div class="stat"><div class="stat-number">4+</div><div class="stat-label">Live Projects</div></div>
+      <div class="stat"><div class="stat-number">8.19</div><div class="stat-label">CGPA</div></div>
+      <div class="stat"><div class="stat-number">3</div><div class="stat-label">Hackathons</div></div>
+      <div class="stat"><div class="stat-number">'27</div><div class="stat-label">Graduating</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- STACK -->
+<section id="stack">
+  <div class="section-header reveal">
+    <span class="section-number">02</span>
+    <h2 class="section-title">Tech Stack</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="stack-container reveal">
+    <canvas class="stack-canvas" id="stack-canvas"></canvas>
+    <div class="stack-overlay"><span class="stack-hint">hover to repel</span></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <div class="section-header reveal">
+    <span class="section-number">03</span>
+    <h2 class="section-title">Projects</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="projects-grid">
+    <div class="project-card reveal">
+      <div class="project-index">01 / 04</div>
+      <div class="project-name">Atonement</div>
+      <p class="project-desc">AI branching context manager. Branch off into isolated Rough Sheets tied to any idea — the AI there only sees that context. On resolve, it summarises and folds back into the main thread, keeping conversations clean.</p>
+      <div class="project-tags"><span class="tag">Next.js</span><span class="tag">React</span><span class="tag">Clerk Auth</span><span class="tag">AI APIs</span></div>
+      <a href="https://atonement.in" target="_blank" class="project-link">Live Site <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-index">02 / 04</div>
+      <div class="project-name">Pluto</div>
+      <p class="project-desc">Real-time mode-switching document extraction pipeline. Intelligently routes, understands, and verifies document data using a multi-agent architecture that adapts to document type and content complexity.</p>
+      <div class="project-tags"><span class="tag">Python</span><span class="tag">FastAPI</span><span class="tag">Hugging Face</span><span class="tag">Multi-agent</span></div>
+      <a href="https://huggingface.co/spaces/ayushKishor/mini-project-3rd_yr" target="_blank" class="project-link">View Demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-index">03 / 04</div>
+      <div class="project-name">RedThread</div>
+      <p class="project-desc">Semantic discovery tool built around intent, not keywords. Vague or abstract queries surface accurate, contextually relevant results — bridging how people think with how search works.</p>
+      <div class="project-tags"><span class="tag">Python</span><span class="tag">Hugging Face</span><span class="tag">Semantic Search</span><span class="tag">NLP</span></div>
+      <a href="https://huggingface.co/spaces/ayushKishor/redThread" target="_blank" class="project-link">View Demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+    <div class="project-card reveal">
+      <div class="project-index">04 / 04</div>
+      <div class="project-name">Chat Analysis AI</div>
+      <p class="project-desc">Conversation analysis tool that answers questions strictly based on what's written — no assumptions, no mind-reading. Forces AI to stay grounded in the actual text of any conversation.</p>
+      <div class="project-tags"><span class="tag">Python</span><span class="tag">Hugging Face</span><span class="tag">NLP</span></div>
+      <a href="https://huggingface.co/spaces/ayushKishor/chat-analysis-ai" target="_blank" class="project-link">View Demo <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- HACKATHONS -->
+<section id="hackathons">
+  <div class="section-header reveal">
+    <span class="section-number">04</span>
+    <h2 class="section-title">Hackathons</h2>
+    <div class="section-line"></div>
+  </div>
+  <div class="hack-timeline">
+    <div class="hack-item">
+      <div class="hack-dot gold"></div>
+      <div class="hack-meta"><span class="hack-badge qualifier">State Qualifier</span></div>
+      <div class="hack-name">OpenAI Academy × NxtWave Buildathon</div>
+      <p class="hack-desc">Built <em>Mars Rover 2032</em> — qualified for the State-Level Buildathon (INDIAai). Competed against teams across the state in an OpenAI-powered build challenge.</p>
+      <a href="https://github.com/Levi710/mars-rover-2032" target="_blank" class="hack-link">github.com/Levi710/mars-rover-2032 ↗</a>
+    </div>
+    <div class="hack-item">
+      <div class="hack-dot"></div>
+      <div class="hack-meta"><span class="hack-badge participant">SIH 2025</span></div>
+      <div class="hack-name">Smart India Hackathon 2025</div>
+      <p class="hack-desc">Built <em>TravelTrackAI</em> — a full-stack platform for collecting, analyzing, and visualizing travel data across India. End-to-end implementation with live deployment.</p>
+      <a href="https://travel-trackai.vercel.app/welcome" target="_blank" class="hack-link">travel-trackai.vercel.app ↗</a>
+    </div>
+    <div class="hack-item">
+      <div class="hack-dot"></div>
+      <div class="hack-meta"><span class="hack-badge participant">GENOVATE 2026</span></div>
+      <div class="hack-name">Gen AI Workshop — VISTA, KIIT</div>
+      <p class="hack-desc">Built a posture and sports form AI analyzer and coach. Participated in a Gen AI workshop organized by the Computer Vision Society of KIIT, March 2026.</p>
+      <a href="#" class="hack-link">Cert ID: GENOVATE-2026-53515-FG91</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2 class="contact-heading reveal">Let's<br><em>Connect</em></h2>
+  <p class="contact-sub reveal">Open to internship opportunities, collaborations, and interesting problems worth solving.</p>
+  <div class="contact-links reveal">
+    <a href="mailto:ayushkishor111@gmail.com" class="contact-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      Email
+    </a>
+    <a href="https://github.com/Levi710" target="_blank" class="contact-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+      GitHub
+    </a>
+    <a href="https://www.linkedin.com/in/ayush-kishor-b3b5312a6/" target="_blank" class="contact-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+      LinkedIn
+    </a>
+    <a href="https://atonement.in" target="_blank" class="contact-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 010 20M12 2a15.3 15.3 0 000 20"/></svg>
+      Portfolio
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Ayush Kishor</p>
+  <p>KIIT Deemed University · Bhubaneswar</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
